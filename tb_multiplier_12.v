@@ -54,6 +54,7 @@ begin
 
     @(posedge clk);
     #1;
+    #1;
     // check idle state
     if (busy !== 1'b0 || done !== 1'b0)
         $display("TEST 1 FAIL: DUT is not in IDLE state");

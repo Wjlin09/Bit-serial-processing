@@ -75,7 +75,7 @@ module multiplier_12 (
     end
 
     // =========================================
-    // Sequential Logic状态赋值和输出
+    // Sequential Logic
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) 
         begin
